@@ -10,6 +10,10 @@ A Controlled Mechanistic Study on Clinical and Environmental Tabular Data" (IJIE
 | core.py, run_clf.py, run_reg.py, analyses_synth.py, analyses_detect.py, analyses_natural.py, make_tables.py | Tables 10–20 (see README_revision.md) |
 
 ## Reproducing
+
+```bash
 pip install -r requirements.txt
+```
+
 Seeds 0–29 define the 30 repetitions. Breast Cancer and Diabetes are loaded from scikit-learn;
 the LogS, heart disease and Beijing PM2.5 files and their sources are listed in README_revision.md.
